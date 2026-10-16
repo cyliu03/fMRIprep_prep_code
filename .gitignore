@@ -1,0 +1,31 @@
+# Local participant data and generated datasets; publish conversion code only.
+/fMRI_raw/
+/behavior/
+/bids/*
+!/bids/code/
+
+# Preprocessing results and intermediate files.
+/derivatives/
+/derivatives_surface/
+/work/
+/work_surface/
+
+# Personal FreeSurfer license, not the project's code license.
+/license.txt
+
+# Local presentations and temporary visualization builds.
+/output/
+/.chart-data-*/
+/.ppt-*/
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+
+# Operating system and editor temporary files.
+.DS_Store
+Thumbs.db
+~$*
+*.swp
